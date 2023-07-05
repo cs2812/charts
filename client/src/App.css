@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 45% 45%;
+  justify-content: center;
+  box-sizing: border-box;
+  gap: 10px;
+  margin-top: 10px;
+
+}
+.App>div{
+  border: solid pink;
+  padding: 1rem;
+}
+.nav{
+  padding: 1rem;
+  border: solid;
+  display: flex ;
+  justify-content: space-around;
+}
+
+.nav>span>select{
+  width: 100px;
+}
+
+
+
+
+
+
+
